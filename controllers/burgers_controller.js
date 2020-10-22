@@ -7,11 +7,21 @@ var burgerJS = require("../models/burgers.js")
 var router = express.Router();
 
 router.get("/", function(req, res) {
-    orm.selectAll(function(data) {
+    burger.all(function(data) {
         var object = {
-            burgers
+            burgers : data
+        };
+        console.log(object)
+        res.render("index", object)
+    });
+});
+
+router.post("/api/burgers", function(req, res) {
+    orm.insertOne([
+        {
+            bu
         }
-    })
+    ])
 })
 
 
