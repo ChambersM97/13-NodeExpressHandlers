@@ -1,0 +1,24 @@
+{
+  "name": "13-nodeexpresshandlers-eat-da-burger-",
+  "version": "1.0.0",
+  "description": "burger hw",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChambersM97/13-NodeExpressHandlers-Eat-Da-Burger-.git"
+  },
+  "author": "Chambers Mansour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChambersM97/13-NodeExpressHandlers-Eat-Da-Burger-/issues"
+  },
+  "homepage": "https://github.com/ChambersM97/13-NodeExpressHandlers-Eat-Da-Burger-#readme",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5"
+  }
+}
