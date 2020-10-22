@@ -19,7 +19,7 @@ var orm = {
         queryString += value1 + "," + value2 + ");";
 
         connection.query(queryString, function(err) {
-            if (err) {throw err};
+            if (err) {throw err};PNE
             console.log("successfully INSERTED into burger.");
         });
     },

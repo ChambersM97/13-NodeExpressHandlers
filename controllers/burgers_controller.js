@@ -4,7 +4,15 @@ var express = require("express")
 //connects this JavaScript file to the one we're on
 var burgerJS = require("../models/burgers.js")
 
+var router = express.Router();
 
+router.get("/", function(req, res) {
+    orm.selectAll(function(data) {
+        var object = {
+            burgers
+        }
+    })
+})
 
 
 
