@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/ChambersM97/13-NodeExpressHandlers-Eat-Da-Burger-#readme",
   "dependencies": {
+    "exphbs": "^1.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
     "mysql": "^2.18.1",
     "mysql2": "^2.2.5"
   }
