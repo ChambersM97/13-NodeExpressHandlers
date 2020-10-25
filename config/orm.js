@@ -34,25 +34,25 @@ var orm = {
             console.log(dbQuery)
         });
     },
-    insertOne: function(table, cols, vals, cb) {
-        var dbQuery = "INSERT INTO " + 
-        table + 
-        " (" + 
-        cols.toString() + 
-        ") " + 
-        "VALUES (" +
-         createQmarks(vals.length) +
-         ") ";
+    // insertOne: function(table, cols, vals, cb) {
+    //     var dbQuery = "INSERT INTO " + 
+    //     table + 
+    //     " (" + 
+    //     cols.toString() + 
+    //     ") " + 
+    //     "VALUES (" +
+    //      createQmarks(vals.length) +
+    //      ") ";
 
-         console.log(dbQuery);
-         connection.query(dbQuery, vals, function(err, res) {
-             if (err) {
-                 throw err;
-             }
-             cb(res);
+    //      console.log(dbQuery);
+    //      connection.query(dbQuery, vals, function(err, res) {
+    //          if (err) {
+    //              throw err;
+    //          }
+    //          cb(res);
             
-         });
-    },
+    //      });
+    // },
     updateOne: function(table, objColVals, condition, cb) {
         var dbQuery = "UPDATE " +
          table + 
