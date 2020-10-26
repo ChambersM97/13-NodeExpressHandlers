@@ -7,11 +7,14 @@
 
 ### 🏠 [Homepage](https://github.com/ChambersM97/13-NodeExpressHandlers)
 
-## Install
+## Getting Started
 
-```sh
-npm install
-```
+After completing the steps below, run http://localhost:3307.
+    git clone https://github.com/ChambersM97/13-NodeExpressHandlers-Eat-Da-Burger-.git
+    cd 13-NodeExpressHandlers-Eat-Da-Burger-.git
+    run 'npm install'
+    run 'node server.js'
+
 
 ## Author
 
